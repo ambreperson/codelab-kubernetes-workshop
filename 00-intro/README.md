@@ -51,7 +51,7 @@ kubectl logs <pod-name>
 
 Récupérer son numéro de participant si pas déjà fourni par les speakers
 
-Se connecter sur le cluster Kubernetes depuis [![Environnement Gitpod](../assets/gitpod.svg)](https://gitpod.io/?autostart=true#https://gitlab.com/codelab-kubernetes/workshop)  
+Se connecter sur le cluster Kubernetes depuis [![Environnement Github Codespaces](../assets/github-codespaces-logo.png)](https://github.com/codespaces/new?template_repository=apersonovh/codelab-kubernetes-workshop)    
 
 ```shell
 kubectx student-<numéro>
