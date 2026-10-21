@@ -50,9 +50,7 @@ metadata:
   name: appname
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
-    nginx.ingress.kubernetes.io/ssl-redirect: "true"
 spec:
-  ingressClassName: nginx
   tls:
     - hosts:
         - appname.example.com
