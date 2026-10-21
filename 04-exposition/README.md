@@ -70,7 +70,6 @@ spec:
 
 La section `metadata` permet de définir le nom de l'`Ingress`.  
 La section `spec` permet de définir les caractéristiques de l'`Ingress` :  
-  * `ingressClassName` : permet de définir la classe de l'`Ingress` (par défaut `nginx`).  
   * `tls` : permet de définir les configurations TLS de l'`Ingress`.  
     * `hosts` : permet de définir les noms de domaine à exposer.  
     * `secretName` : permet de définir le nom du `Secret` contenant les certificats TLS. Ce `Secret` est généré par le `cert-manager` grâce aux `annotations` présentes

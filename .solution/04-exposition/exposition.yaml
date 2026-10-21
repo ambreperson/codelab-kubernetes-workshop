@@ -28,9 +28,7 @@ metadata:
   name: shop-ingress
   annotations:
     cert-manager.io/cluster-issuer: "letsencrypt-prod"
-    nginx.ingress.kubernetes.io/ssl-redirect: "true"
 spec:
-  ingressClassName: nginx
   tls:
   - hosts:
     - <student-X>.devshop.codelab.dwidwi.tech
