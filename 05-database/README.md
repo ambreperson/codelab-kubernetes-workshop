@@ -159,7 +159,7 @@ kubectl get secret shop-database-secret  -o jsonpath="{.data.POSTGRES_PASSWORD}"
 
 5) Dans le fichier `database.yaml` créez un `Service` headless :
    * nommé `shop-database-service`
-   * ciblant les `Pods` identifiés par le label `app: shop-database`
+   * ciblant les `Pods` identifiés par le label `app: shop-database-label`
    * exposant le port `5432` du `Pod` sur le port `5432` du `Service`
 
 6) Dans le fichier `database.yaml` et créez un `StatefulSet` :  
